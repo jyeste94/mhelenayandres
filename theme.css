@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "playfai-regular";
+    src: url("/fonts/playfair-display/PlayfairDisplay-Regular.otf") format("otf");
+}
+
+*{
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: playfai-regular;
+    font-size: 16px;
+    color: #222;
+}
+html, body{
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+*, ::after, ::before{
+    box-sizing: initial;
+}
+
+.seccion-full{
+    /*background-image:*/
+    /*        linear-gradient(*/
+    /*                rgba(255, 255, 255, 0.8), !* Ajusta la opacidad aquí *!*/
+    /*                rgba(255, 255, 255, 0.8)  !* Y aquí si es necesario *!*/
+    /*        ),*/
+    /*        url("img/pexels-henry-&-co-1939485.jpg"); !* Ruta de tu imagen de fondo *!*/
+    /*background-image: url("img/pexels-henry-&-co-1939485.jpg");*/
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+.header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),  url(./img/aym.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 50vh;
+    margin: 0;
+    padding-top: 16vh;
+}
+.heading {
+    color: #ffffff;
+    display: block;
+    /*font-family: 'Caveat', cursive;*/
+    font-size: 6em;
+    font-weight: normal;
+    text-shadow: 0 0 10px #000;
+}
+.heading-subtext{
+    color: #fff;
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: .6em;
+}
+.fixed-button{
+    background: rgba(20,20,20,.5);
+    border-radius: 1em;
+    bottom: 1em;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    position: fixed;
+    right: 1em;
+    text-decoration: none;
+    z-index: 9999;
+}
+.fixed-button::after{
+    content: "\25BE";
+    display: block;
+    font-size: 28px;
+    line-height: 0;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    text-align: center;
+}
+.fixed-button:active,
+.fixed-button:hover{
+    background: rgba(20,20,20,.9);
+}
+.section{
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 1em 2.4em;
+}
+.sub-heading{
+    font-family: 'Caveat', cursive;
+    font-size: 3em;
+    /*margin-top: 1em;*/
+}
+#details-cuando{
+    background-color: #ee6352;
+    position: relative;
+    width: 130%;
+    margin-left: -10%;
+}
+.details{
+    margin: 0 auto 5em;
+
+}
+.details-heading{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.fas {
+    font-size: 3em;
+    opacity: .8;
+}
+.resort-image{
+    width: 100%
+}
+.section.values{
+    width: 17%;
+    max-width: 160px;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    padding: 0;
+}
+#days, #hours, #minutes, #seconds{
+    font-family: 'Martel Sans',Helvetica,Arial,Lucida,sans-serif!important;
+    font-weight: 600!important;
+    color: #545454!important;
+    letter-spacing: 2px!important;
+    font-size: 26px!important;
+    opacity: .4;
+}
+.copy-countdown{
+    font-family: 'Martel Sans',Helvetica,Arial,Lucida,sans-serif;
+    color: #545454!important;
+    line-height: 20px!important;
+    font-size: 15px!important;
+    opacity: .4;
+}
+.section.sep{
+    display: inline-block;
+    position: relative;
+    padding: 0;
+}
+.section.sep p{
+    color: rgba(0,0,0,0)!important;
+    letter-spacing: 2px!important;
+    text-decoration: none!important;
+    font-size: 26px!important;
+}
+
+.section p, .details-heading{
+    /*font-family: 'Martel Sans',Helvetica,Arial,Lucida,sans-serif!important;*/
+    font-size: 21px;
+    font-weight: 600!important;
+    color: #545454!important;
+    opacity: .8;
+}
+#Numero-cuenta{
+    opacity: 1
+}
+#qrcode{
+    margin-top: 20%;
+    padding-left: 43%;
+}
+
+.btn-primary{
+    margin-top: 15%;
+    font-size: 90%;
+    background-color: #7cd2d3;
+    border-color: #7cd2d3;
+}
+#copyright{
+    font-size: 10px;
+}
+.form-control{
+    width: 90%;
+}
+#checkbox-acompanante{
+    margin-top: 5%;
+}
+#checkbox-acompanante  label{
+    float: left;
+}
+#checkbox-acompanante input{
+    width: 5%;
+    float: left;
+    margin-left: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 2em;
+        position: relative;
+        top: 80%;
+    }
+  }
+
+
+
