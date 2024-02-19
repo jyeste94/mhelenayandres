@@ -40,8 +40,11 @@ html, body{
     background-position: 50% 60%;
     background-attachment: scroll;
     background-size: cover;
-    height: 50vh;
+    height: 35vh;
     margin: 0;
+    padding-top: 16vh;
+    filter: grayscale(1);
+
     padding-top: 16vh;
 }
 .heading {
@@ -86,7 +89,7 @@ html, body{
 .section{
     margin: 0 auto;
     max-width: 600px;
-    padding: 1em 2.4em;
+    /*padding: 1em 2.4em;*/
 }
 .sub-heading{
     font-family: 'Caveat', cursive;
@@ -95,9 +98,9 @@ html, body{
 }
 #details-cuando{
     background-color: #ee6352;
-    position: relative;
-    width: 130%;
-    margin-left: -10%;
+    /*position: relative;*/
+    /*width: 130%;*/
+    /*margin-left: -10%;*/
 }
 .details{
     margin: 0 auto 5em;
