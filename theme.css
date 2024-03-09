@@ -97,14 +97,10 @@ html, body{
     /*margin-top: 1em;*/
 }
 #details-cuando{
-    background-color: #ee6352;
+    background-color:  #f35253 ;
     /*position: relative;*/
     /*width: 130%;*/
     /*margin-left: -10%;*/
-}
-.details{
-    margin: 0 auto 5em;
-
 }
 .details-heading{
     font-weight: bold;
@@ -168,10 +164,14 @@ html, body{
 }
 
 .btn-primary{
-    margin-top: 15%;
-    font-size: 90%;
-    background-color: #7cd2d3;
-    border-color: #7cd2d3;
+    color: #ee6352 !important;
+    border-width: 0px !important;
+    border-radius: 22px;
+    font-size: 14px;
+    font-family: 'Martel Sans', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 600 !important;
+    background-color: #ffffff;
+    margin-bottom: 5%;
 }
 #copyright{
     font-size: 10px;
@@ -189,6 +189,14 @@ html, body{
     width: 5%;
     float: left;
     margin-left: 30%;
+}
+#days, #hours, #minutes, #seconds{
+    color: white !important;
+    opacity: 0.8;
+}
+.copy-countdown{
+    color: white !important;
+    opacity: 0.8;
 }
 
 @media only screen and (max-width: 600px) {
