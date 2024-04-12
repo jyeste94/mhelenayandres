@@ -198,7 +198,12 @@ html, body{
     color: white !important;
     opacity: 0.8;
 }
-
+.title-ceremonia{
+    background-color: #f35253;
+    color: white;
+    font-size: 30px;
+    padding: 5%
+}
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 2em;
