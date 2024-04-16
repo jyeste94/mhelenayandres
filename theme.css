@@ -162,6 +162,30 @@ html, body{
     margin-top: 20%;
     padding-left: 43%;
 }
+.barra-espaciadora{
+    background-color: #b76b5e;
+    height: 1px;
+    width: 45%;
+    margin-left: 25%;
+}
+#la-celebracion{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#la-ceremonia{
+    margin-bottom: 10%;
+}
+#lista-bodas{
+    margin-top: 10%;
+}
+.et_pb_section{
+    font-family: Open Sans, Arial, sans-serif;
+}
+#formulario{
+    background-color: #ee6352;
+    margin-top: -1%;
+}
+
 
 .btn-primary{
     color: #ee6352 !important;
