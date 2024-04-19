@@ -5,9 +5,9 @@
 
 *{
     /*font-family: 'Quicksand', sans-serif;*/
-    font-family: playfai-regular;
-    font-size: 16px;
-    color: #222;
+    /*font-family: playfai-regular;*/
+    /*font-size: 16px;*/
+    /*color: #222;*/
 }
 html, body{
     margin: 0;
@@ -150,10 +150,10 @@ html, body{
 
 .section p, .details-heading{
     /*font-family: 'Martel Sans',Helvetica,Arial,Lucida,sans-serif!important;*/
-    font-size: 21px;
-    font-weight: 600!important;
-    color: #545454!important;
-    opacity: .8;
+    /*font-size: 21px;*/
+    /*font-weight: 600!important;*/
+    /*color: #545454!important;*/
+    /*opacity: .8;*/
 }
 #Numero-cuenta{
     opacity: 1
@@ -223,11 +223,32 @@ html, body{
     opacity: 0.8;
 }
 .title-ceremonia{
-    background-color: #f35253;
+    background-color: #ee6352;
     color: white;
     font-size: 30px;
     padding: 5%
 }
+
+.et_pb_text_6, .et_pb_text_3{
+    font-family: 'Martel Sans', Helvetica, Arial, Lucida, sans-serif !important;
+}
+.et_pb_text_8.et_pb_text, .et_pb_text_5.et_pb_text {
+    color: #b76b5e !important;
+}
+label{
+    color: #ffffff!important;
+}
+
+.et_pb_button_1 {
+    color: #ffffff !important;
+    border-width: 0px !important;
+    border-radius: 22px;
+    font-size: 14px;
+    font-family: 'Martel Sans', Helvetica, Arial, Lucida, sans-serif !important;
+    font-weight: 600 !important;
+    background-color: #ee6352 !important;
+}
+
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 2em;
