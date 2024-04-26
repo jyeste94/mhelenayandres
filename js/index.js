@@ -23,7 +23,7 @@ function countdown(targetDate) {
     }, 1000);
 }
 
-countdown('July 6, 2024 23:59:59'); // Reemplaza esta fecha con tu fecha objetivo
+countdown('September 7, 2024 23:59:59');
 
 
 function mostrarCampos() {
