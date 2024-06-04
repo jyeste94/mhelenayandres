@@ -35,7 +35,7 @@ html, body{
 }
 
 .header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)),  url(./img/aym.jpg);
+    background-image: url(./img/mhelenayandres2.jpg);
     background-repeat: no-repeat;
     background-position: 50% 60%;
     background-attachment: scroll;
@@ -43,9 +43,15 @@ html, body{
     height: 35vh;
     margin: 0;
     padding-top: 16vh;
+    /*filter: grayscale(1);*/
+    padding-top: 20vh;
+}
+#img2{
+    color: #fff;
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
     filter: grayscale(1);
-
-    padding-top: 16vh;
 }
 .heading {
     color: #ffffff;
