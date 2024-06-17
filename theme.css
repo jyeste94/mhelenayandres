@@ -209,6 +209,10 @@ html, body{
 .form-control{
     width: 90%;
 }
+#opcion_principal {
+    width: 85%;
+}
+
 #checkbox-acompanante{
     margin-top: 5%;
 }
